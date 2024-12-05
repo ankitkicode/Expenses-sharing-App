@@ -36,17 +36,6 @@ const App = () => {
             <option value="unequally">Unequally</option>
             <option value="percentage">Percentage</option>
           </select>
-
-
-          <datalist id="browsers">
-            <option value="Edge" />
-            <option value="Firefox" />
-            <option value="Chrome" />
-            <option value="Opera" />
-            <option value="Safari" />
-          </datalist>
-
-
           <div className="flex-col gap-6 pt-2 text-lg text-white w-full">
 
             <div className="w-[100%] flex items-center justify-between  py-3">

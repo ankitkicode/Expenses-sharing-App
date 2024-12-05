@@ -38,6 +38,7 @@ const divideExpenseEqually = async (req, res) => {
         });
         await expense.save();
         res.status(201).json({
+            success: true,
             message: "Expense added successfully",
             expense
         });
